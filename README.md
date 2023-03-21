@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Followed this https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/ tutorial.
+
 To view the hosted page navigate to https://jamiebort.github.io/routed-react-app-gh-pages/
 
 Success. Had to make some changes to
