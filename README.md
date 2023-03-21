@@ -1,5 +1,31 @@
 # Getting Started with Create React App
 
+To view the hosted page navigate to https://jamiebort.github.io/routed-react-app-gh-pages/
+
+Success. Had to make some changes to
+
+```
+    <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route exact path="/">
+        <Home />
+        </Route> */}
+        <Route path="/" element={<About />} />
+        {/* <Route path="/about">
+        <About />
+        </Route> */}
+    </Routes>
+```
+
+and
+
+```
+    // import { Route, Switch, Link } from "react-router-dom";
+    import { Route, Routes, Link } from "react-router-dom";
+```
+
+in the `App.js` file. Otherwise I followed the tutorial without issues.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
