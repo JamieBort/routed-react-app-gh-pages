@@ -4,7 +4,7 @@ Followed this https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pag
 
 To view the hosted page navigate to https://jamiebort.github.io/routed-react-app-gh-pages/
 
-Success. Had to make some changes to
+Success. Had to make these two changes:
 
 ```
     <Routes>
@@ -19,14 +19,18 @@ Success. Had to make some changes to
     </Routes>
 ```
 
-and
+and:
 
 ```
     // import { Route, Switch, Link } from "react-router-dom";
     import { Route, Routes, Link } from "react-router-dom";
 ```
 
-in the `App.js` file. Otherwise I followed the tutorial without issues.
+to the `App.js` file.
+
+I also had to add this `import { HashRouter } from "react-router-dom";` to the `index.js` file.
+
+Otherwise I followed the tutorial without issues.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
